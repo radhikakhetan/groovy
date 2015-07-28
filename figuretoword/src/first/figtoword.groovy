@@ -39,8 +39,14 @@ class figtoword {
 	
 		println  figtoword.convert(67500) 
 		
-		assert figtoword.convert(123) == 'one hundred and twenty three'
-		
+		assert figtoword.convert(2) == 'two'
+		assert figtoword.convert(10) == 'ten'
+		assert figtoword.convert(13) == 'thirteen'
+		assert figtoword.convert(53) == 'fifty three'		
+		assert figtoword.convert(100) == 'one hundred'
+		assert figtoword.convert(345) == 'three hundred and forty five'
+		assert figtoword.convert(3500) == 'three thousand five hundred'
+		assert figtoword.convert(1045) == 'one thousand forty five'
 		
 	}
 	
