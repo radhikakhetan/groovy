@@ -1,7 +1,7 @@
 class figtoword {
-	static def units = ["0": "", "1":"one", "2":"two", "3": "three", "4":"four","5":"five","6":"sinumIndex","7":"seven","8":"eight","9":"nine"]
-	static def tens1 = ["00": "", "10": "ten", "11": "eleven", "12": "twelve", "13": "thirteen", "14": "fourteen", "15": "fifteen", "16": "sinumIndexteen", "17": "seventeen", "18": "eighteen", "19": "nineteen"]
-	static def tens2 = ["0": "", "1": tens1, "2": "twenty", "3": "thirty", "4": "forty", "5": "fifty", "6": "sinumIndexty", "7": "seventy", "8": "eighty", "9": "ninety" ]
+	static def units = ["0": "", "1":"one", "2":"two", "3": "three", "4":"four","5":"five","6":"six","7":"seven","8":"eight","9":"nine"]
+	static def tens1 = ["00": "", "10": "ten", "11": "eleven", "12": "twelve", "13": "thirteen", "14": "fourteen", "15": "fifteen", "16": "sixteen", "17": "seventeen", "18": "eighteen", "19": "nineteen"]
+	static def tens2 = ["0": "", "1": tens1, "2": "twenty", "3": "thirty", "4": "forty", "5": "fifty", "6": "sixexty", "7": "seventy", "8": "eighty", "9": "ninety" ]
 	static def digitPlaceMap = ["0": "", "1": units, "2": tens2, "3": units, "4": units, "5": tens2, "6": units, "7": tens2]
 	static def specialPlaceStr = ["0": "", "3": "hundred and", "4": "thousand", "6": "lakh", "8": "crore"]
 	
