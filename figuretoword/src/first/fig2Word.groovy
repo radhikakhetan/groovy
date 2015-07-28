@@ -35,5 +35,15 @@ class figtoword {
 
 		convertFigToWord.convert("67500"); 
 		
+		
+		assert convertFigToWord.convert(2) == 'two'
+		assert convertFigToWord.convert(10) == 'ten'
+		assert convertFigToWord.convert(13) == 'thirteen'
+		assert convertFigToWord.convert(53) == 'fifty three'		
+		assert convertFigToWord.convert(100) == 'one hundred'
+		assert convertFigToWord.convert(345) == 'three hundred and forty five'
+		assert convertFigToWord.convert(3500) == 'three thousand five hundred'
+		assert convertFigToWord.convert(1045) == 'one thousand forty five'
+		
 	}
 }
