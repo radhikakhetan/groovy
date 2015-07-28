@@ -5,4 +5,5 @@ An introduction to a new language groovy. The problem is Figure to word. Given a
 **Example**
 
 Input:  125
+
 Output: One hundred and twenty five
