@@ -1,6 +1,6 @@
-# groovy
+#Figure to Word
 
-An introduction to a new language groovy. The problem is Figure to word. Given a number we need to print its english translation.
+Given a number in figures, the output is the number in words. The implementation is in Groovy.  
 
 **Example**
 
